@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/index.tsx", "src/lib/supabase.js", "src/components/FallingShapes.js", "src/components/Vehicle.js", "src/pages/api/saveScore.js", "src/components/game.js"],
   "exclude": ["node_modules"]
 }
